@@ -10,6 +10,7 @@ function isGreen(){
         result.textContent = "Green light! Go ahead!"
         IsGreen = true
         IsRed = false
+        console.log("Зеленый свет");
     }
     else{
         green_light.style.backgroundColor = "gray"
@@ -25,6 +26,7 @@ function isRed(){
         result.textContent = "Red light! Stop!"
         IsRed = true
         IsGreen = false
+        console.log("Красный свет")
     }
     else{
         red_light.style.backgroundColor = "gray"
